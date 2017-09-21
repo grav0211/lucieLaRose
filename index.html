@@ -31,7 +31,6 @@
 	 
     <body>
 	
-	
 	<div class="header">
 	<section id="header" class="appear">
 		
@@ -50,7 +49,21 @@
 						<li><a href="#section-about">Biographie</a></li>
 						<li><a href="#financement">Financement</a></li>
 						<li><a href="#saviezvous">Saviez-vous que…</a></li>
-						<li><a href="#programme">Programme</a></li>
+						<li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programme <b class="caret"></b></a>
+    <ul class="dropdown-menu">
+      <li><a href="#programme">Communauté</a></li>
+      <li><a href="#programme">Communication</a></li>
+      <li><a href="#programme">Environnement</a></li>
+      <li><a href="#programme">Sécurité</a></li>
+      <li><a href="#programme">Finances</a></li>
+      <li><a href="#programme">Développement Nord-Est</a></li>
+      <li><a href="#programme">Développement Rue Ste-Anne</a></li>
+      
+    </ul>
+  </li>
+						
+						
 						<li><a href="#section-contact">Contact</a></li>
 					</ul>
 				</div><!--/.navbar-collapse -->
@@ -60,7 +73,6 @@
 	</section>
 	</div>
 	
-
 <div class="slider">		
 		<div id="about-slider">
 			<div id="carousel-slider" class="carousel slide" data-ride="carousel">
@@ -211,18 +223,15 @@
                             <ul>
 											<li>CE et OPP – École Primaire Beaconsfield et Joseph-Henrico</li>
 											<li>Représentante des parents – comité de l’ouest – Commission scolaire MB</li>
-											<li>Membre du comité Hadock – construction de la nouvelle école ( Bout de l’Isle)</li>
+											<li>Membre du comité Ad Hoc – construction de la nouvelle école (Bout de l’Isle)</li>
 											<li>Présidente/fondatrice et animatrice Guid’Amies SAB</li>
 											<li>Marguillère – Paroisse Ste-Anne</li>
-											<li>Participation à la planification d’activités municipales( carnaval, Fête de la famille, 300e Paroisse, défilé de Noël, vente garage communautaire)</li>
+											<li>Participation à la planification d’activités municipales (carnaval, Fête de la famille, 300e Paroisse, défilé de Noël, vente garage communautaire)</li>
 											<li>Membre de l’Association des résidents du Quartier Nord</li>
 											<li>Membre de la Table de concertation de SAB</li>
-											<li>Bénévole aux associations sportives( Lakeshore Baseball, Lakeshore Hockey, Pierrefonds Baseball)</li>
-											<li>Bénévole au comptoire alimentaire, Guignolée, écoles (biblio, lecture etc),théâtre Bellevue</li>
+											<li>Bénévole aux associations sportives (Lakeshore Baseball, Lakeshore Hockey, Pierrefonds Baseball)</li>
+											<li>Bénévole au comptoire alimentaire, Guignolée, écoles, théâtre Bellevue</li>
 										</ul>
-                            
-                            
-                            
                         </div>
 						
 					
@@ -252,8 +261,11 @@
 							<p>Seul un électeur de la municipalité peut contribuer le maximum autorisé est de 200$ par candidat.</p>
 							<p>Tout montant de plus de 50$ doit être fait par chèque.</p>
 							<p>Un reçu de contribution sera émis.</p>
-							<p>Crédit d’impôt: Au municipal, en vertu de la Loi sur les impôts, les contributions en argent sont admissibles à un crédit d’impôt équivalent à 85 % des premiers 50 $ et 75 % pour l’excédent sur les premiers 50 $ jusqu’à 200 $, soit un crédit maximal de 155 $ par année civile, à l’exclusion de toute contribution versée par un candidat indépendant autorisé pour son propre bénéfice.</p>
-						
+							<p>Crédit d’impôt:</p>
+							<p>à 85 % des premiers 50 $</p>
+							<p>75 % pour l’excédent sur les premiers 50 $ jusqu’à 200 $</p>
+							<p>soit un crédit maximal de 155 $ par année civile</p>
+							
 						</div>
 						</div>
 					</div>
@@ -262,14 +274,82 @@
 		</section>
 		<!-- /financement -->
 		
-		<!-- saviez-vous-->
-		<section id="saviezvous" class="section appear clearfix">
+		 <!-- saviezvous -->
+		<section id="saviezvous" class="section pad-bot5 bg-white">
+		
+		<div class="container">
+    <div class="page-header">
+        <h1 id="timeline">Saviez-vous que</h1>
+    </div>
+    <ul class="timeline">
+        <li>
+          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">1600s</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Au 17e siècle, la région de Sainte-Anne-de-Bellevue se nommait Bout de l’Isle.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">1895</h4>
+            </div>
+            <div class="timeline-body">
+              <p>Le village devient la Ville de Sainte-Anne-de-Bellevue en 1895.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">1913</h4>
+            </div>
+            <div class="timeline-body">
+              <p>La première Église Union au Canada fut construite à Sainte-Anne-de-Bellevue en 1913.</p>
+            </div>
+          </div>
+        </li>
+        <li class="timeline-inverted">
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">1917</h4>
+            </div>
+            <div class="timeline-body">
+              <p>James John Harpell, un visonnaire communautaire, construit le Garden City Press en 1917 et ainsi qu’une coopérative, un projet domicilié Gardenvale, pour ses ouvriers.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">2003</h4>
+            </div>
+            <div class="timeline-body">
+              <p>La Paroisse Ste-Anne a fêté ses 300 ans en 2003</p>
+            </div>
+          </div>
+        </li>
+    </ul>
+</div>
+		
+		</section>
+		<!--/saviezvous-->
+					
+        <!-- programme-->
+		<section id="programme" class="section appear clearfix">
 			<div class="container">
 				
 				<div class="row mar-bot40">
 					<div class="col-md-offset-3 col-md-6">
 						<div class="section-header">
-							<h2 class="section-heading animated" data-animation="bounceInUp">Saviez-vous que</h2>
+							<h2 class="section-heading animated" data-animation="bounceInUp">Programme</h2>
 							<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam.</p>
 						</div>
 					</div>
@@ -424,152 +504,7 @@
 				
 			</div>
 		</section>
-        <!-- /saviez-vous-->
-		
-		<!-- spacer section:testimonial -->
-		<section id="testimonials" class="section" data-stellar-background-ratio="0.5">
-		<div class="container">
-			<div class="row">				
-					<div class="col-lg-12">
-							<div class="align-center">
-										<div class="testimonial pad-top40 pad-bot40 clearfix">
-											<h5>
-												SAVEZ VOUS QUE...
-											</h5>
-											<br/>
-											<!--span class="author">&mdash; Jouse Manuel / www.jouse-manuel.com</span -->
-										</div>
-
-								</div>
-							</div>
-					</div>
-				
-			</div>	
-		
-		</section>
-			
-		<!-- spacer section:stats>
-		<section id="parallax1" class="section pad-top40 pad-bot40 mar-bot20" data-stellar-background-ratio="0.5">
-			<div class="container ">
-            <div class="align-center pad-top40 pad-bot40">
-                <h4 class="color-white pad-top50">Indoctum accusamus comprehensam</h4>
-				<p class="color-white">Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Fusce dapibus, tellus ac cursus etiam porta sem malesuada magna mollis euismod. commodo, Faccibus mollis interdum. Morbi leo risus, porta ac, vestibulum at eros.Feugiat accumsan Suspendisse eget Duis faucibus tempus pede pede augue pede. Dapibus mollis
-								dignissim suscipit porta justo nisl amet Nunc quis semper.</p>
-            </div>
-			</div>	
-		</section>
-
-		<!-- spacer section:testimonial>
-		<section id="testimonials-2" class="section" data-stellar-background-ratio="0.5">
-		<div class="container">
-			<div class="row">				
-					<div class="col-lg-12">
-							<div class="align-center">
-										<div class="testimonial pad-top40 pad-bot40 clearfix">
-											<h5>
-												Nunc velit risus, dapibus non interdum quis, suscipit nec dolor. Vivamus tempor tempus mauris vitae fermentum. In vitae nulla lacus. Sed sagittis tortor vel arcu sollicitudin nec tincidunt metus suscipit.Nunc velit risus, dapibus non interdum.
-											</h5>
-											<br/>
-											<span class="author">&mdash; Jouse Manuel / www.jouse-manuel.com</span>
-										</div>
-
-								</div>
-							</div>
-					</div>
-				
-			</div>	
-		
-		</section>
-		
-		<!-- section id="parallax2" class="section parallax" data-stellar-background-ratio="0.5">	
-            <div class="align-center pad-top40 pad-bot30">
-                <h4 class="color-white pad-top50">The middle of that asteroid field</h4>
-				<p class="color-white">We can repair any dings and scrapes to your spacecraft and support,Planning a time travel trip to the middle ages Feugiat accumsan Suspendisse eget Duis faucibus tempus pede pede augue pede.Dapibus mollis
-								dignissim suscipit porta justo nisl amet Nunc quis semper.</p>
-            </div>
-		</section -->
-
-        <!-- programme -->
-		<section id="programme" class="section pad-bot5 bg-white">
-		<div class="container"> 
-				<div class="row mar-bot5">
-					<div class="col-md-offset-3 col-md-6">
-						<div class="section-header">
-						<div class="wow bounceIn"data-animation-delay="7.8s">
-						
-							<h2 class="section-heading animated"  >Programme</h2>
-							<!-- h4>Neque porro quisquam est, qui dolorem ipsum quia dolor.</h4 -->
-						
-						</div>
-						</div>
-					</div>
-				</div>
-			<div class="row mar-bot40">
-				<div class="col-lg-4" >
-					<div class="wow bounceIn">
-						<div class="align-center">
-					
-							<div class="wow rotateIn">
-								<div class="service-col">
-									<div class="service-icon">
-										<figure><i class="fa fa-group"></i></figure>
-									</div>
-										<h2><a href="#">Community</a></h2>
-										<p>Encourager les événements communautaires</p>
-										<p>Favoriser l’implication des organismes, des citoyens et des élus</p>
-										<p>Redéfinir les comités consultatifs</p>
-										<p>Instaurer une politique des aînés</p>
-										<p>Élaborer une politique de bonne santé</p>
-										<p>Promouvoir les arts, la culture et le patrimoine</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-					
-				<div class="col-lg-4" >
-					<div class="align-center">
-						<div class="wow bounceIn">
-					   
-							<div class="wow rotateIn">
-								<div class="service-col">	
-									<div class="service-icon">
-										<figure><i class="fa fa-image"></i></figure>
-									</div>
-										<h2><a href="#">Environment</a></h2>
-										<p>Implanter programmes d’embellissement</p>
-										<p>Planifier des structures dans les parcs( jeux d’eau, patinoires 4 saisons extérieure, parcours pour adultes</p>
-										<p>Rehausser les espaces publiques</p>
-										<p>Négocier le développement de réseux pédestres dans les zones non construites pour profiter des espaces verts</p>
-								</div>
-							</div>	
-						</div>
-					</div>
-				</div>
-			
-				<div class="col-lg-4" >
-					<div class="align-center">
-						<div class="wow bounceIn">
-							<div class="service-col">
-								<div class="service-icon">
-									<figure><i class="fa fa-dropbox"></i></figure>
-								</div>
-									<h2><a href="#">Development</a></h2>
-									<p>Développement dense autour de la gare du train électrique (REM)</p>
-									<p>Utilisateur de transport en commun, moins de voitures, moins d’impact sur le traffic</p>
-									<p>Attirer des commerces tells petits café, station essence, dpanneure, services et bureaux de professionnels</p>
-									<p>Développement est important pour la prospérité de la Ville et également pour mieux server la communauté( transport en commun et commerces), pour éviter l’exile des familles avec adolescents ainsi que les couples plus âgés</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			
-			</div>	
-
-		</div>
-		</section>
-		<!--/programme-->
-
+        <!-- /programme-->
 
 
 
