@@ -657,7 +657,7 @@ button[type="submit"].red {
 .line-btn.green,
 input[type="submit"].green,
 button[type="submit"].green {
-  background: #417630;
+  background: #cf6064;
   border: none;
   color: #ffffff;
 }
@@ -845,14 +845,14 @@ section.featured h2.slogan {
 	top: 50%;
 	width: 50px;
 	color:#3a906d;
-	background:#3a906d;
+	background:#ce6064;
 	color:#fff;
 }
 
 #carousel-slider a i:hover {
-	background:#3a906d;
+	background:#ce6064;
 	color:#fff;
-	border: 1px solid #3a906d;
+	border: 1px solid #ce6064;
 }
 
 #carousel-slider 
@@ -898,7 +898,6 @@ section.featured h2.slogan {
 	margin-bottom:20px;
 	color:#fff;
 	padding:10px;
-	background:#3a906d;
 }
 
 @media (max-width: 767px) {

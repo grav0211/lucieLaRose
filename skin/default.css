@@ -3,22 +3,22 @@
 #2 = 417630
 */
 a {
-	color: #417630;
+	color: #cf6064;
 }
 a:hover {
-	color: #417630;
+	color: #cf6064;
 }
 
 /* menu */
 .nav>li>a:hover {
-	color: #54ee23;
+	color: #CE6064;
 }
 
 .navbar .navbar-nav > .active > a {
-	color: #54ee23;
+	color: #cf6064;
 }
 .navbar .navbar-brand:hover {
-	color: #54ee23;
+	color: #cf6064;
 }
 
 /* flexslider */
@@ -68,9 +68,9 @@ a:hover {
 
 /* footer */
 .social-circle li a {
-	background:#417630;
+	background:#cf6064;
 }
 
 a.scrollup{
-	background:#417630;
+	background:#cf6064;
 }
