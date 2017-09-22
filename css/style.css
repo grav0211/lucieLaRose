@@ -1429,7 +1429,7 @@ nav#filter a {
 	color:#555;
 }
 nav#filter a:hover, nav#filter a.current {
-	background-color: #417630;
+	background-color: #cf6064;
 	color:#fff;
 }
 
@@ -2013,7 +2013,7 @@ Media queries
             top: 16px;
             left: 50%;
             margin-left: -25px;
-            background-color: #999999;
+            background-color: #cf6064;
             z-index: 100;
             border-top-right-radius: 50%;
             border-top-left-radius: 50%;
@@ -2107,4 +2107,8 @@ Media queries
             left: -14px;
             right: auto;
         }
+}
+
+.center{
+    margin: 0 auto;
 }

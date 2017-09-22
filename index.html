@@ -32,7 +32,7 @@
     <body>
 	
 	<div class="header">
-	<section id="header" class="appear clearfix">
+	<section id="header">
 		
 		<div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
 			
@@ -45,7 +45,7 @@
 				</div>
 				<div class="navbar-collapse collapse">
 					<ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
-						<li class="active"><a href="#header">Acceuil</a></li>
+						<li class="active"><a href="index.html">Acceuil</a></li>
 						<li><a href="#biblio">Biographie</a></li>
 						<li><a href="#financement">Financement</a></li>
 						<li><a href="#saviezvous">Saviez-vous que…</a></li>
@@ -72,6 +72,7 @@
 		
 	</section>
 	</div>
+    
     <div class="slider">		
 		<div id="about-slider">
 			<div id="carousel-slider" class="carousel slide" data-ride="carousel">
@@ -161,8 +162,9 @@
 			</div> <!--/#carousel-slider-->
 		</div><!--/#about-slider-->
 	</div><!--/#slider-->
+	
 	<!--about-->
-	<section id="biblio" class="appear clearfix">
+	<section id="biblio" class="appear">
 		<div class="container">
 			<div class="about">
 				<div class="row mar-bot40">
@@ -180,8 +182,8 @@
 				<div class="row">
 			
 					<div class="row-slider">
-						<div class="col-lg-6-offset-3 mar-bot30 text-center mx-auto">
-							<img alt="Lucie LaRose" class="img-responsive" src="img/777.png" width="50%" height="350"/>
+						<div class="col-lg-6-offset-3 mar-bot30">
+							<img alt="Lucie LaRose" class="img-responsive center" src="img/777.png" width="50%" height="100"/>
 						</div>
 						
 						<div class="col-lg-6 col-sm-12 col-xs-12 list-style">
@@ -274,7 +276,7 @@
 		
 		<div class="container">
     <div class="page-header">
-        <h1 id="timeline">Saviez-vous que</h1>
+        <h2 id="timeline">Saviez-vous que</h2>
     </div>
     <ul class="timeline">
         <li>
@@ -289,7 +291,7 @@
           </div>
         </li>
         <li class="timeline-inverted">
-          <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-badge"><i class="glyphicon glyphicon-credit-card"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">1895</h4>
@@ -300,7 +302,7 @@
           </div>
         </li>
         <li>
-          <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+          <div class="timeline-badge"><i class="glyphicon glyphicon-credit-card"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">1913</h4>
@@ -321,7 +323,7 @@
           </div>
         </li>
         <li>
-          <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+          <div class="timeline-badge"><i class="glyphicon glyphicon-floppy-disk"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
               <h4 class="timeline-title">2003</h4>
@@ -484,13 +486,23 @@
 					<div class="col-md-offset-3 col-md-6">
 						<div class="section-header">
 							<h2 class="section-heading animated" data-animation="bounceInUp">Contact</h2>
-							<p>André De L’Étoile – agent et représentant officiel</p>
-							<p>Suzanne Poirier – Directrice de campagne</p>
-							<p>Olivia Beck – recrutement des bénévoles</p>
-							
 							<p>Lucie LaRose</p>
-							<p>contact@lucielarose.ca</p>
+							<p><a>contact@lucielarose.ca</a></p>
 							<p>514-457-0416</p>
+							<hr>
+                            <p>André de L’Étoile – Agent et représentant officiel</p>
+                            <p><a>andre@lucielarose.ca</a></p>
+                            <hr>
+                            <p>Suzanne Poirier – Directrice de campagne</p>
+                            <p><a>suzanne@lucielarose.ca</a></p>
+							<hr>
+                            <p>Josianne LaRose – Directrice des communications</p>
+                            <p><a>info@lucielarose.ca</a></p>
+							<hr>
+                            <p>Olivia Beck – Recrutement des bénévoles</p>
+                            <p><a>olivia@lucielarose.ca</a></p>
+							
+							
 							
 						</div>
 					</div>
@@ -558,6 +570,16 @@
 	</section>
 	
 	<a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>	
+
+
+
+
+
+
+
+
+
+
 
 	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 	<script src="js/jquery.js"></script>
