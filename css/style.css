@@ -1916,7 +1916,7 @@ Media queries
 		background-color: #444;
 		width: 100%;
 		float: none;
-		margin:0;
+		margin-top:0;
 		padding:0;
 	}
 	.navbar .navbar-collapse ul.nav li {
