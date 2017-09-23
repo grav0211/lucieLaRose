@@ -18,7 +18,7 @@
   ========================================================================== */
 body {
 	 font-family: "Titillium Web", Helvetica, Arial, sans-serif;
-	color:#777;
+	color:#4E2526;
 	background: #f7f7f7;
 	font-size: 16px;
 	line-height: 1.6em;
@@ -296,6 +296,7 @@ cursor: pointer;
 }
 .mar-top40 {
 	margin-top: 40px;
+    
 }
 /*service*/
 i.service-icon {
@@ -2110,4 +2111,9 @@ Media queries
 
 .center{
     margin: 0 auto;
+}
+
+
+.whitetext{
+    color: #FFF
 }
