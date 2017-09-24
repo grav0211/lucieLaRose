@@ -24,6 +24,7 @@ body {
 	line-height: 1.6em;
 	font-weight: 300;
 	text-shadow: none;
+    padding-top: 120px;
 }
 
 .clear {
@@ -921,6 +922,8 @@ section.featured h2.slogan {
     }
     .carousel-caption h2, .carousel-caption  h2 span, .carousel-caption  p {
     	font-size:18px;
+        padding-top:50px;
+        padding-bottom:0px;
     }
 }
 
