@@ -910,11 +910,18 @@ section.featured h2.slogan {
 
 .carousel-caption  p {
 	font-size:30px;
-	margin-top:30px;
+	margin-top:0px;
 	margin-bottom:20px;
 	color:#fff;
 	padding:10px;
 }
+
+.alignment {
+    margin-top:30px;
+    margin-bottom:-15px;
+    
+}
+
 
 @media (max-width: 767px) {
     .carousel-caption  {
@@ -924,6 +931,16 @@ section.featured h2.slogan {
     	font-size:18px;
         padding-top:50px;
         padding-bottom:0px;
+    }
+    #alignment2 {
+        margin-top:20px;
+        margin-bottom:-50px;
+    }
+    #alignment4 {
+        margin-bottom:-30px;
+    }
+    #alignment5 {
+        padding-top: 0px;
     }
 }
 
