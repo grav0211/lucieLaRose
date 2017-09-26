@@ -1913,9 +1913,7 @@ Media queries
 	.navbar-nav {
 		margin-top: 20px;
 	}
-    h1 a.navbar-brand{
-        font-size: 30px;
-    }
+
     
 }
 
@@ -1925,9 +1923,7 @@ Media queries
 		margin-top: 20px;
 	}
     
-    h1 a.navbar-brand{
-        font-size: 30px;
-    }
+    
 }
 
 
@@ -1960,9 +1956,7 @@ Media queries
 		margin-bottom: 30px;
 	}
     
-    h1 a.navbar-brand{
-        font-size: 20px;
-    }
+   
 }
 @media (max-width: 767px) {
 
