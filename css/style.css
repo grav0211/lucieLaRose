@@ -1934,7 +1934,7 @@ Media queries
 		background-color:rgba(0,0,0,1);
 	}
 	.navbar .navbar-collapse ul.nav {
-		background-color: #444;
+		background-color: #000000;
 		width: 100%;
 		float: none;
 		margin-top:0;
@@ -1962,10 +1962,10 @@ Media queries
 		background-color:rgba(0,0,0,1);
 	}
 	.navbar .navbar-collapse ul.nav {
-		background-color: #444;
+		background-color: #000000;
 		width: 100%;
 		float: none;
-		margin-top:0;
+		margin-top:0px;
 		padding:0;
 	}
 	.navbar .navbar-collapse ul.nav li {
