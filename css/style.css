@@ -2213,3 +2213,7 @@ img {
   max-width: 100% ;
   height: auto ;
 }
+
+.isotopeItem {
+    margin-bottom: 30px;
+}

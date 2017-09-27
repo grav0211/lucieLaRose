@@ -68,10 +68,10 @@
 /**** Isotope styles ****/
 
 /* required for containers to inherit vertical size from window */
-/*html,
+html,
 body {
   height: 100%;
-}*/
+}
 
 #container {
   border: 1px solid #666;
