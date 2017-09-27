@@ -1,3 +1,4 @@
+
 (function ($) {
 
 	$(window).scroll(function(){
@@ -15,6 +16,8 @@
 	// local scroll
 	jQuery('.navbar').localScroll({hash:true, offset: {top: 0},duration: 800, easing:'easeInOutExpo'});
 
+    
+    
 	
 	// portfolio
     if($('.isotopeWrapper').length){
