@@ -2224,3 +2224,7 @@ img {
 .isotopeItem {
     margin-bottom: 30px;
 }
+
+ul.nav.navbar-nav li{
+    touch-action: none;
+}
